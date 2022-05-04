@@ -1,0 +1,190 @@
+/*!
+Theme Name: CryptoMatrix
+Theme URI:
+Author: Christopher Sanderson
+Author URI:
+Description: My theme for CryptoMatrix
+Version: 1.0
+Tested Up to: 1.0
+*/
+h1,h2,h3,h4 {
+    font-family: "Inter";/*"MatrixStyle";*/
+    color:white;
+   }
+   
+   /*#cryptoMatrixHeaderTitle {
+       position: center;
+   }*/
+
+   .twitter-timeline {
+     max-width: 100%;
+     max-height: 500px;
+   }
+
+   .fa {
+     font-size: 25px;
+     color: #FFFFFF;
+   }
+
+   .panel-heading {
+    background-color: #1da1f2 !important;
+    color: #1da1f2 !important;
+   }
+
+   .panel {
+    margin-top: 25px;
+   }
+   
+   /*blockquote.twitter-tweet {
+       display: inline-block;
+       font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+       font-size: 12px;
+       font-weight: bold;
+       line-height: 16px;
+       border-color: #eee #ddd #bbb;
+       border-radius: 5px;
+       border-style: solid;
+       border-width: 1px;
+       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+       margin: 10px 5px;
+       padding: 0 16px 16px 16px;
+       max-width: 468px;
+     }
+     
+     blockquote.twitter-tweet p {
+       font-size: 16px;
+       font-weight: normal;
+       line-height: 20px;
+     }
+     
+     blockquote.twitter-tweet a {
+       color: inherit;
+       font-weight: normal;
+       text-decoration: none;
+       outline: 0 none;
+     }
+     
+     blockquote.twitter-tweet a:hover,
+     blockquote.twitter-tweet a:focus {
+       text-decoration: underline;
+     }*/
+   
+   p,h5 {
+       font-family: "Questrial";
+       color:white;
+       text-align:center;
+   }
+
+   #twitterWidget {
+       height: 20%;
+   }
+   
+   @font-face {
+       font-family: MatrixStyle;
+       src: url("http://localhost/wordpress_test/wp-content/themes/CryptoMatrixTheme/fonts/Mokoto/Mokoto-Glitch.ttf");
+   }
+
+   @font-face {
+       font-family: Questrial;
+       src: url("http://localhost/wordpress_test/wp-content/themes/CryptoMatrixTheme/fonts/Questrial/Questrial-Regular.ttf");
+   }
+
+   @font-face {
+       font-family: Inter;
+       src: url("http://localhost/wordpress_test/wp-content/themes/CryptoMatrixTheme/fonts/Inter/static/Inter-Bold.ttf");
+   }
+
+   .carousel-item{
+       font: #000000;
+       background-color: #0c0606;
+   }
+
+   #error_page {
+       background-color: black;
+   }
+   
+   #ttr_header {
+       border-bottom: 1px solid black;
+       width: device-width;/*/auto;*/
+   }
+
+   body {
+       text-align: left;
+       background-color: #21242D;/* rgb(40, 39, 44);*/
+       /*background-color: #00180b;*/
+       width:device-width;
+   }
+
+   #ttr_sidebar {
+       border-left:1px solid black;
+   }
+
+   #ttr_footer {
+       background-color: black;
+       width: device-width;
+       border-top: 1px #a2a2a2 solid;
+       text-align: center;
+       padding-top: 200px;
+       padding-bottom: 200px;
+   }
+
+   #ttr_header {
+   
+       background-color:#212322;
+       opacity: 1;
+   }
+
+   div {
+       height: fit-content;
+   }
+
+   #Subscribers, #Social_Feed,#Enroll,#About,#WhatYouWillLearn,#Blogs,#Subscribers,#Blogs,#Quotes {
+        /*width:auto;*/
+        /*height:600px;*/
+        height: fit-content;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        background-color: #16181d;
+    }
+
+    #Resources,#Guides,#firstPerson,#uncategorised{
+        width:inherit;
+        height: 450px;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        background-color: #202020;
+
+    }
+
+    #Subscribers, #Social_Feed,#Enroll,#About,#WhatYouWillLearn,#Blogs,#Subscribers,#Blogs,#Quotes{
+        border: 1px solid #00ff62;
+    }
+
+   label {
+       color:white;
+   }
+
+   li {
+       color: white;
+       align-items: center;
+   }
+
+   .carousel-item :active a:link {
+        color: #000000;
+   }
+
+   .carousel-item, .carousel-item :active{
+       background-color: 21242D;
+       width: fit-content;
+       height:400px;
+       align-items: center;
+   }
+   
+footer a {
+    display: inline-block;
+    color:#d9dee9;
+}
+
+li {
+    list-style-type: none;
+}
